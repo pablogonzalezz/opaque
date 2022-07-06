@@ -1,0 +1,15 @@
+<div class="container" style="max-width: 550px">
+    <h2 class="text-center mb-5"></h2>
+    <div *ngIf="isLoggedin === false">
+      <div>
+        <button type="button" (click)="loginWithGoogle()" class="btn">
+          <img src="assets/google-logo.png" class="google-logo">
+          <span>Sign in with Google</span>
+        </button>
+      </div>
+    </div>
+    <div *ngIf="isLoggedin === true" class="loading-div">
+      <img src="assets/Rolling-1s-200px.svg" class="loading">
+      <span class="redirect-text">You are being redirected</span>
+    </div>
+  </div>
