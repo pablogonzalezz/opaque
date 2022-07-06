@@ -27,7 +27,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
         providers: [
           {
             id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider('670937027352-kll9t1mhlpcmsjanh0fmqm0hmjmu23j4.apps.googleusercontent.com'),
+            provider: new GoogleLoginProvider('32940002090-235pc86ieijhoa8r95659bdkunb2drqr.apps.googleusercontent.com'),
           },
         ],
       } as SocialAuthServiceConfig,
