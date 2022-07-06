@@ -1,6 +1,6 @@
 function handleCredentialResponse(user) {
     console.log(user);
-    window.open(`opaque://authorization/?token=${user.credentials}`);
+    window.open(`opaque://authorization/?token=${user.credential}`);
     window.close();
 };
 
