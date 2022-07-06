@@ -1,1 +1,0 @@
-function handleCredentialResponse(e){console.log(e),window.open(`opaque://authorization/?token=${e.credentials}`),window.close()}window.handleCredentialResponse=handleCredentialResponse;
